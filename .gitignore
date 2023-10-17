@@ -101,3 +101,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+# Binaries for premake5 project
+bin/
+bin-int/
