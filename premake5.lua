@@ -47,7 +47,6 @@ project "GLFW"
         }
         
         links{
-            "Dwmapi.lib",
             "opengl32.lib"
         }
 
