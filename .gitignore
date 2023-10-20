@@ -104,3 +104,8 @@ tests/windows
 # Binaries for premake5 project
 bin/
 bin-int/
+
+# Codeblocks files
+**.cbp
+**.depend
+**.layout
