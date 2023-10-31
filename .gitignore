@@ -109,3 +109,9 @@ bin-int/
 **.cbp
 **.depend
 **.layout
+
+
+# CodeLite files
+GLFW.mk
+GLFW.project
+GLFW.txt
