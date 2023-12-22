@@ -87,12 +87,15 @@ project "GLFW"
         
     filter "configurations:Debug"
         runtime "Debug"
-        symbols "on"
+        optimize "Off"
+        symbols "On"
         
     filter "configurations:Release"
         runtime "Release"
-        optimize "on"
+        optimize "On"
+        symbols "Default"
 
     filter "configurations:Dist"
         runtime "Release"
-        optimize "on"
+        optimize "Speed"
+        symbols "Off"
